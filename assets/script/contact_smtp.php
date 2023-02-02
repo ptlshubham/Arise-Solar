@@ -25,7 +25,7 @@ require('recaptcha-master/src/autoload.php');
 /* ReCaptch Secret */
 $recaptchaSecret = '<!-- Put Your reCaptcha Secret Key -->';
 
-$dzEmailTo 		= "info@example.com";   /* Receiver Email Address */
+$dzEmailTo 		= "arisesolarllc@gmail.com";   /* Receiver Email Address */
 $dzEmailFrom    = "Industry Contact";
 
 #### Load PHP Mailer Library ####
