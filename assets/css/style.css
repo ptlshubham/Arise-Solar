@@ -5003,7 +5003,28 @@ blockquote:before {
     font-size: 15px;
     line-height: 28px;
     font-weight: 400;
-    color: #999;
+    color: #60697b;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(164, 174, 198, 0.2);
+    border-radius: 0.4rem;
+}
+.card {
+    box-shadow: 0 0 0 0.05rem rgb(8 60 130 / 6%), 0rem 0rem 1.25rem rgb(30 34 40 / 4%);
+    border: 0;
+}
+.bg-light {
+    background-color: #fefefe !important;
+}
+.card-body {
+    padding: 2.8rem 3rem 2.8rem;
 }
 .dlab-post-text p:last-child {
     margin: 0;
@@ -5532,6 +5553,7 @@ blockquote:before {
 }
 .blog-single .dlab-post-text {
     margin-top: 20px;
+    text-align: justify;
 }
 .blog-single .dlab-post-tags {
     margin-top: 20px;
